@@ -1,0 +1,472 @@
+-- BloxHubV3 --
+
+local BloxHubV3 = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local HaveFun = Instance.new("TextLabel")
+local BloxFruits = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local BedWars = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local AnimeFightersSimulator = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local PetSimulatorX = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local MurderMystery2 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local DaHood = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local MeepCity = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local Arsenal = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local UICorner_10 = Instance.new("UICorner")
+local CombatWarriors = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local BIGPaintball = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local VictoryRace = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local MadCity = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner_15 = Instance.new("UICorner")
+local InfiniteYield = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local FakeServerMessage = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local DarkHub = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local AnimationsR6R15 = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local DontClick = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local Close = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local Name = Instance.new("TextLabel")
+local Creator = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local UICorner_22 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local UICorner_23 = Instance.new("UICorner")
+
+BloxHubV3.Name = "BloxHubV3"
+BloxHubV3.Parent = game.CoreGui
+BloxHubV3.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = BloxHubV3
+MainFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+MainFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MainFrame.BorderSizePixel = 0
+MainFrame.Position = UDim2.new(0.348484844, 0, 0.388857812, 0)
+MainFrame.Size = UDim2.new(0, 500, 0, 200)
+MainFrame.Active = true
+MainFrame.Draggable = true
+
+HaveFun.Name = "HaveFun!"
+HaveFun.Parent = MainFrame
+HaveFun.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HaveFun.BackgroundTransparency = 1.000
+HaveFun.Position = UDim2.new(0.460000008, 0, 0.0549999997, 0)
+HaveFun.Size = UDim2.new(0, 100, 0, 26)
+HaveFun.Font = Enum.Font.Code
+HaveFun.Text = "Have fun!"
+HaveFun.TextColor3 = Color3.fromRGB(255, 255, 255)
+HaveFun.TextSize = 14.000
+HaveFun.TextWrapped = true
+
+BloxFruits.Name = "BloxFruits"
+BloxFruits.Parent = MainFrame
+BloxFruits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BloxFruits.Position = UDim2.new(0.0199999809, 0, 0.474999964, 0)
+BloxFruits.Size = UDim2.new(0, 100, 0, 25)
+BloxFruits.Font = Enum.Font.Code
+BloxFruits.Text = "Blox Fruits"
+BloxFruits.TextColor3 = Color3.fromRGB(0, 0, 0)
+BloxFruits.TextSize = 14.000
+BloxFruits.TextWrapped = true
+BloxFruits.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/ATR",true))()
+end)
+
+UICorner.Parent = BloxFruits
+
+TextLabel.Parent = MainFrame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.Position = UDim2.new(0.0199999996, 0, 0.239999995, 0)
+TextLabel.Size = UDim2.new(0, 469, 0, 1)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = ""
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+UICorner_2.Parent = TextLabel
+
+BedWars.Name = "BedWars"
+BedWars.Parent = MainFrame
+BedWars.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+BedWars.Position = UDim2.new(0.0200000107, 0, 0.649999976, 0)
+BedWars.Size = UDim2.new(0, 100, 0, 25)
+BedWars.Font = Enum.Font.Code
+BedWars.Text = "BedWars"
+BedWars.TextColor3 = Color3.fromRGB(0, 0, 0)
+BedWars.TextSize = 14.000
+BedWars.TextWrapped = true
+BedWars.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
+UICorner_3.Parent = BedWars
+
+AnimeFightersSimulator.Name = "AnimeFightersSimulator"
+AnimeFightersSimulator.Parent = MainFrame
+AnimeFightersSimulator.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+AnimeFightersSimulator.Position = UDim2.new(0.0199999809, 0, 0.300000072, 0)
+AnimeFightersSimulator.Size = UDim2.new(0, 100, 0, 25)
+AnimeFightersSimulator.Font = Enum.Font.Code
+AnimeFightersSimulator.Text = "Anime Fighters Simulator"
+AnimeFightersSimulator.TextColor3 = Color3.fromRGB(0, 0, 0)
+AnimeFightersSimulator.TextScaled = true
+AnimeFightersSimulator.TextSize = 14.000
+AnimeFightersSimulator.TextWrapped = true
+AnimeFightersSimulator.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/destylol/masterhubv311/itachi/Main.lua"))()
+end)
+
+UICorner_4.Parent = AnimeFightersSimulator
+
+PetSimulatorX.Name = "PetSimulatorX!"
+PetSimulatorX.Parent = MainFrame
+PetSimulatorX.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PetSimulatorX.Position = UDim2.new(0.0199999996, 0, 0.824999988, 0)
+PetSimulatorX.Size = UDim2.new(0, 100, 0, 25)
+PetSimulatorX.Font = Enum.Font.Code
+PetSimulatorX.Text = "Pet Simulator X!"
+PetSimulatorX.TextColor3 = Color3.fromRGB(0, 0, 0)
+PetSimulatorX.TextScaled = true
+PetSimulatorX.TextSize = 14.000
+PetSimulatorX.TextWrapped = true
+PetSimulatorX.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Script"))()
+end)
+
+UICorner_5.Parent = PetSimulatorX
+
+MurderMystery2.Name = "MurderMystery2"
+MurderMystery2.Parent = MainFrame
+MurderMystery2.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+MurderMystery2.Position = UDim2.new(0.24000001, 0, 0.825000048, 0)
+MurderMystery2.Size = UDim2.new(0, 100, 0, 25)
+MurderMystery2.Font = Enum.Font.Code
+MurderMystery2.Text = "Murder Mystery 2"
+MurderMystery2.TextColor3 = Color3.fromRGB(0, 0, 0)
+MurderMystery2.TextScaled = true
+MurderMystery2.TextSize = 14.000
+MurderMystery2.TextWrapped = true
+MurderMystery2.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Doggo-cryto/EclipseMM2/master/Script", true))()
+end)
+
+UICorner_6.Parent = MurderMystery2
+
+DaHood.Name = "DaHood"
+DaHood.Parent = MainFrame
+DaHood.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DaHood.Position = UDim2.new(0.24000001, 0, 0.650000036, 0)
+DaHood.Size = UDim2.new(0, 100, 0, 25)
+DaHood.Font = Enum.Font.Code
+DaHood.Text = "Da Hood\\n"
+DaHood.TextColor3 = Color3.fromRGB(0, 0, 0)
+DaHood.TextSize = 14.000
+DaHood.TextWrapped = true
+DaHood.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002"))()
+end)
+
+UICorner_7.Parent = DaHood
+
+MeepCity.Name = "MeepCity"
+MeepCity.Parent = MainFrame
+MeepCity.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+MeepCity.Position = UDim2.new(0.23999995, 0, 0.474999964, 0)
+MeepCity.Size = UDim2.new(0, 100, 0, 25)
+MeepCity.Font = Enum.Font.Code
+MeepCity.Text = "MeepCity"
+MeepCity.TextColor3 = Color3.fromRGB(0, 0, 0)
+MeepCity.TextSize = 14.000
+MeepCity.TextWrapped = true
+MeepCity.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/synolope/meepcracked/main/loader.lua'))()
+end)
+
+UICorner_8.Parent = MeepCity
+
+Arsenal.Name = "Arsenal"
+Arsenal.Parent = MainFrame
+Arsenal.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Arsenal.Position = UDim2.new(0.239999995, 0, 0.300000012, 0)
+Arsenal.Size = UDim2.new(0, 100, 0, 25)
+Arsenal.Font = Enum.Font.Code
+Arsenal.Text = "Arsenal"
+Arsenal.TextColor3 = Color3.fromRGB(0, 0, 0)
+Arsenal.TextSize = 14.000
+Arsenal.TextWrapped = true
+Arsenal.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))()
+end)
+
+UICorner_9.Parent = Arsenal
+
+UICorner_10.Parent = MainFrame
+
+CombatWarriors.Name = "CombatWarriors"
+CombatWarriors.Parent = MainFrame
+CombatWarriors.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+CombatWarriors.Position = UDim2.new(0.459999979, 0, 0.300000012, 0)
+CombatWarriors.Size = UDim2.new(0, 100, 0, 25)
+CombatWarriors.Font = Enum.Font.Code
+CombatWarriors.Text = "Combat Warriors"
+CombatWarriors.TextColor3 = Color3.fromRGB(0, 0, 0)
+CombatWarriors.TextScaled = true
+CombatWarriors.TextSize = 14.000
+CombatWarriors.TextWrapped = true
+CombatWarriors.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://projecthook.xyz/scripts/new-free.lua"))()
+end)
+
+UICorner_11.Parent = CombatWarriors
+
+BIGPaintball.Name = "BIGPaintball!"
+BIGPaintball.Parent = MainFrame
+BIGPaintball.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BIGPaintball.Position = UDim2.new(0.459999979, 0, 0.475000024, 0)
+BIGPaintball.Size = UDim2.new(0, 100, 0, 25)
+BIGPaintball.Font = Enum.Font.Code
+BIGPaintball.Text = "BIG Paintball!"
+BIGPaintball.TextColor3 = Color3.fromRGB(0, 0, 0)
+BIGPaintball.TextSize = 14.000
+BIGPaintball.TextWrapped = true
+BIGPaintball.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://www.pastebin.com/raw/PuaaGKsT"))()
+end)
+
+UICorner_12.Parent = BIGPaintball
+
+VictoryRace.Name = "VictoryRace"
+VictoryRace.Parent = MainFrame
+VictoryRace.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+VictoryRace.Position = UDim2.new(0.459999979, 0, 0.650000036, 0)
+VictoryRace.Size = UDim2.new(0, 100, 0, 25)
+VictoryRace.Font = Enum.Font.Code
+VictoryRace.Text = "Victory Race"
+VictoryRace.TextColor3 = Color3.fromRGB(0, 0, 0)
+VictoryRace.TextSize = 14.000
+VictoryRace.TextWrapped = true
+VictoryRace.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/SmoxHub/SmoxHub-V2/main/SmoxHub-V2",true))()
+end)
+
+UICorner_13.Parent = VictoryRace
+
+MadCity.Name = "MadCity"
+MadCity.Parent = MainFrame
+MadCity.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MadCity.Position = UDim2.new(0.459999979, 0, 0.825000048, 0)
+MadCity.Size = UDim2.new(0, 100, 0, 25)
+MadCity.Font = Enum.Font.Code
+MadCity.Text = "Mad City"
+MadCity.TextColor3 = Color3.fromRGB(0, 0, 0)
+MadCity.TextSize = 14.000
+MadCity.TextWrapped = true
+MadCity.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/itsnoctural/Destiny/main/scripts/Mad%20City%20Chapter%202/main.lua",true))()
+end)
+
+UICorner_14.Parent = MadCity
+
+TextLabel_2.Parent = MainFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.Position = UDim2.new(0.689999998, 0, 0.300000161, 0)
+TextLabel_2.Size = UDim2.new(0, 1, 0, 130)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = ""
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+UICorner_15.Parent = TextLabel_2
+
+InfiniteYield.Name = "InfiniteYield"
+InfiniteYield.Parent = MainFrame
+InfiniteYield.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteYield.Position = UDim2.new(0.722000003, 0, 0.300000012, 0)
+InfiniteYield.Size = UDim2.new(0, 118, 0, 25)
+InfiniteYield.Font = Enum.Font.Code
+InfiniteYield.Text = "Infinite Yield"
+InfiniteYield.TextColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYield.TextSize = 14.000
+InfiniteYield.TextWrapped = true
+InfiniteYield.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+UICorner_16.Parent = InfiniteYield
+
+FakeServerMessage.Name = "FakeServerMessage"
+FakeServerMessage.Parent = MainFrame
+FakeServerMessage.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+FakeServerMessage.Position = UDim2.new(0.722000003, 0, 0.824999988, 0)
+FakeServerMessage.Size = UDim2.new(0, 118, 0, 25)
+FakeServerMessage.Font = Enum.Font.Code
+FakeServerMessage.Text = "Fake Server Message"
+FakeServerMessage.TextColor3 = Color3.fromRGB(0, 0, 0)
+FakeServerMessage.TextScaled = true
+FakeServerMessage.TextSize = 14.000
+FakeServerMessage.TextWrapped = true
+FakeServerMessage.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/ant-7802/--/main/straightmilk.lua'))()
+end)
+
+UICorner_17.Parent = FakeServerMessage
+
+DarkHub.Name = "DarkHub"
+DarkHub.Parent = MainFrame
+DarkHub.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+DarkHub.Position = UDim2.new(0.722000003, 0, 0.474999994, 0)
+DarkHub.Size = UDim2.new(0, 118, 0, 25)
+DarkHub.Font = Enum.Font.Code
+DarkHub.Text = "Dark Hub"
+DarkHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+DarkHub.TextSize = 14.000
+DarkHub.TextWrapped = true
+DarkHub.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+end)
+
+UICorner_18.Parent = DarkHub
+
+AnimationsR6R15.Name = "AnimationsR6/R15"
+AnimationsR6R15.Parent = MainFrame
+AnimationsR6R15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AnimationsR6R15.Position = UDim2.new(0.722000003, 0, 0.649999976, 0)
+AnimationsR6R15.Size = UDim2.new(0, 118, 0, 25)
+AnimationsR6R15.Font = Enum.Font.Code
+AnimationsR6R15.Text = "Animations R6/R15"
+AnimationsR6R15.TextColor3 = Color3.fromRGB(0, 0, 0)
+AnimationsR6R15.TextScaled = true
+AnimationsR6R15.TextSize = 14.000
+AnimationsR6R15.TextWrapped = true
+AnimationsR6R15.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/RmD3qNp7", true))()
+end)
+
+UICorner_19.Parent = AnimationsR6R15
+
+DontClick.Name = "Don'tClick!"
+DontClick.Parent = MainFrame
+DontClick.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DontClick.Position = UDim2.new(0.703999996, 0, 0.0549999997, 0)
+DontClick.Size = UDim2.new(0, 68, 0, 26)
+DontClick.Font = Enum.Font.Code
+DontClick.Text = "FREE ROBUX"
+DontClick.TextColor3 = Color3.fromRGB(85, 255, 0)
+DontClick.TextScaled = true
+DontClick.TextSize = 14.000
+DontClick.TextWrapped = true
+DontClick.MouseButton1Down:Connect(function()
+	script.Parent.MouseButton1Click:connect(function()
+
+		game:GetService("TeleportService"):Teleport("10479799188")
+
+	end)
+end)
+
+UICorner_20.Parent = DontClick
+
+Close.Name = "Close"
+Close.Parent = MainFrame
+Close.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+Close.Position = UDim2.new(0.85799998, 0, 0.0549999997, 0)
+Close.Size = UDim2.new(0, 50, 0, 26)
+Close.Font = Enum.Font.Code
+Close.Text = "Close"
+Close.TextColor3 = Color3.fromRGB(0, 0, 0)
+Close.TextSize = 14.000
+Close.TextWrapped = true
+Close.MouseButton1Down:Connect(function()
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end)
+
+UICorner_21.Parent = Close
+
+Name.Name = "Name"
+Name.Parent = MainFrame
+Name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Name.BackgroundTransparency = 1.000
+Name.Position = UDim2.new(0.0199999996, 0, 0.0549999997, 0)
+Name.Size = UDim2.new(0, 100, 0, 26)
+Name.Font = Enum.Font.Code
+Name.Text = "BloxHubV3"
+Name.TextColor3 = Color3.fromRGB(255, 255, 255)
+Name.TextSize = 14.000
+Name.TextWrapped = true
+
+Creator.Name = "Creator"
+Creator.Parent = MainFrame
+Creator.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Creator.BackgroundTransparency = 1.000
+Creator.Position = UDim2.new(0.239999995, 0, 0.0549999997, 0)
+Creator.Size = UDim2.new(0, 100, 0, 26)
+Creator.Font = Enum.Font.Code
+Creator.Text = "By leelee"
+Creator.TextColor3 = Color3.fromRGB(255, 255, 255)
+Creator.TextSize = 14.000
+Creator.TextWrapped = true
+
+TextLabel_3.Parent = MainFrame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.Position = UDim2.new(0.219999999, 0, 0.0549999997, 0)
+TextLabel_3.Size = UDim2.new(0, 1, 0, 26)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = ""
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+UICorner_22.Parent = TextLabel_3
+
+TextLabel_4.Parent = MainFrame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.Position = UDim2.new(0.460000008, 0, 0.0549999997, 0)
+TextLabel_4.Size = UDim2.new(0, 1, 0, 26)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = ""
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+UICorner_23.Parent = TextLabel_4
+
+local function NYHX_fake_script()
+	local script = Instance.new('LocalScript', DontClick)
+
+	script.Parent.MouseButton1Click:connect(function()
+	
+		game:GetService("TeleportService"):Teleport("10479799188")
+	
+	end)
+end
+coroutine.wrap(NYHX_fake_script)()
+local function BLFI_fake_script()
+	local script = Instance.new('LocalScript', Close)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(BLFI_fake_script)()
